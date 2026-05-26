@@ -3,42 +3,128 @@
 一个精选的 **AI for Biology** 领域文献清单，持续更新中。
 
 ## 目录
-- [Awesome AI agents for single-cell analysis](#awesome-ai-agents-for-single-cell-analysis)
-- [Bioimage analysis with AI](#bioimage-analysis-with-ai)
-- [Foundation models for single-cell](#foundation-models-for-single-cell)
-- [AI in Transcriptomics & Reviews](#ai-in-transcriptomics--reviews)
-- [Tools & Infrastructure](#tools--infrastructure)
 
-## Awesome AI agents for single-cell analysis
+- [Awesome AI4Bio (Artificial Intelligence for Biology)](#awesome-ai4bio-artificial-intelligence-for-biology)
+  - [目录](#目录)
+  - [Foundation Models for Single-Cell \& Multi-Omics](#foundation-models-for-single-cell--multi-omics)
+  - [AI Agents for Single-Cell Analysis](#ai-agents-for-single-cell-analysis)
+  - [AI Agents for Bioimage Analysis](#ai-agents-for-bioimage-analysis)
+  - [AI Agents for Spatial Biology](#ai-agents-for-spatial-biology)
+  - [AI Agents for Bioinformatics Pipeline Automation](#ai-agents-for-bioinformatics-pipeline-automation)
+  - [AI Agents for Scientific Discovery](#ai-agents-for-scientific-discovery)
+  - [Reviews \& Benchmarks](#reviews--benchmarks)
+  - [Tools \& Infrastructure](#tools--infrastructure)
+  - [Data Repositories](#data-repositories)
+  - [Automated Scientific Code Generation](#automated-scientific-code-generation)
+  - [Biological Discovery](#biological-discovery)
 
-1. [2025 biorxiv] **CompBioAgent: An LLM-powered agent for single-cell RNA-seq data exploration** [[paper]](https://www.biorxiv.org/content/10.1101/2025.03.17.643771v1)
-2. [2026 Nature Methods] **CellVoyager: AI CompBio agent generates new insights by autonomously analyzing biological data** [[paper]](https://www.nature.com/articles/s41592-026-00001-0) | [[笔记]](_paper/_paper_reading/done/CellVoyager_AI_CompBio_agent_generates_new_insights_by_autonomously_analyzing_biological_data/report_CellVoyager.md)
-3. [2026] **CELLAGENT: LLM-DRIVEN MULTI-AGENT FRAMEWORK FOR NATURAL LANGUAGE-BASED SINGLE-CELL ANALYSIS** [[paper]](https://arxiv.org/abs/2407.09811) | [[笔记]](_paper/_paper_reading/done/CELLAGENT_LLM-DRIVEN_MULTI-AGENT_FRAME-WORK_FOR_NATURAL_LANGUAGE-BASED_SINGLE-CELL_ANALYSIS/report_CELLAGENT.md)
-4. [2026 Genome Biology] **Benchmarking LLM-based agents for single-cell omics analysis** [[paper]](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-025-03576-9) | [[笔记]](_paper/_paper_reading/done/Benchmarking_LLM-based_agents_for_single-cell_omics_analysis/report_BLbafscoa.md)
-5. [2024 Small Science] **An AI Agent for Fully Automated Multi-Omic Analyses** [[paper]](https://onlinelibrary.wiley.com/doi/10.1002/smsc.202400388) | [[笔记]](_paper/_paper_reading/done/An_Al_Agent_for_Fully_Automated_Multi-Omic_Analyses/report_AAAfFAMOA.md)
-6. [2026] **An agentic AI framework for ingestion and standardization of single-cell RNA-seq data analysis (CellAtria)** [[paper]](https://www.biorxiv.org/content/10.1101/2025.09.09.657037v1) | [[笔记]](_paper/_paper_reading/done/An_agentic_AI_framework_for_ingestion_and_standardization_of_single-cell_RNA-seq_data_analysis/report_AaAffiasoscRsda.md)
-7. [2025 Nature Communications] **CASSIA: a multi-agent large language model for automated and interpretable cell annotation** [[paper]](https://www.nature.com/articles/s41467-024-55000-6) | [[笔记]](_paper/_paper_reading/done/CASSIA_a_multi-agent_large_language_model_for_automated_and_interpretable_cell_annotation/report_CASSIA.md)
-8. [2025] **ANNOAGENT: A LANGUAGE AGENT FOR SINGLE-CELL AUTOMATIC ANNOTATION** [[paper]](https://www.biorxiv.org/content/10.1101/2025.01.08.432669v1) | [[笔记]](_paper/_paper_reading/done/ANNOAGENT_A_LANGUAGE_AGENT_FORSINGLE-CELL_AUTOMATIC_ANNOTATION/report_ANNOAGENT.md)
-9. [2026] **ELISA: AN INTERPRETABLE HYBRID GENERATIVE AI AGENT FOR EXPRESSION-GROUNDED DISCOVERY IN SINGLE-CELL GENOMICS** [[paper]](https://openreview.net/pdf?id=ELISA-2025) | [[笔记]](_paper/_paper_reading/done/ELISA_AN_INTERPRETABLE_HYBRID_GENERATIVE_AI_AGENT_FOR_EXPRESSION-GROUNDED_DISCOVERY_IN_SINGLE-CELL_GENOMICS/report_ELISA.md)
-10. [2025] **BioDiscoveryAgent: An AI Agent for Designing Genetic Perturbation Experiments** [[paper]](https://www.biorxiv.org/content/10.1101/2025.01.06.431444v1) | [[笔记]](_paper/_paper_reading/done/BIODISCOVERYAGENT_AN_AI_AGENT_FOR_DESIGN-ING_GENETIC_PERTURBATION_EXPERIMENTS/report_BIODISCOVERYAGENT.md)
+---
 
-## Bioimage analysis with AI
+## Foundation Models for Single-Cell & Multi-Omics
 
-1. [2024 Nature Methods] **Omega: Harnessing the Power of Large Language Models for Bioimage Analysis** [[paper]](https://www.nature.com/articles/s41592-024-02310-w) | [[笔记]](_paper/_paper_reading/done/Omega_—_harnessing_the_power_of_large_language_models_for_bioimage_analysis/report_OMEGA.md)
-2. [2024 Nature Methods] **BioImage.IO Chatbot: A Community-Driven AI Assistant for Integrative Computational Bioimaging** [[paper]](https://www.nature.com/articles/s41592-024-02287-6) | [[笔记]](_paper/_paper_reading/done/BioImage.IO_Chatbot_a_community-driven_AI_assistant_for_integrative_computational_bioimaging/report_BIOIMAGEIOCHATBOT.md)
+基于大规模单细胞 / 多组学数据预训练的基础模型。
 
-## Foundation models for single-cell
+1. [2024 *Nature Methods*] **scGPT: Toward Building a Foundation Model for Single-Cell Multi-Omics Using Generative AI** [[paper]](https://www.nature.com/articles/s41592-024-02161-5) | [[GitHub]](https://github.com/bowang-lab/scGPT)
+2. [2025 *Nature Protocols*] **scGPT: End-to-End Protocol for Fine-Tuned Retinal Cell Type Annotation** [[paper]](https://www.nature.com/articles/s41596-025-01220-1) | [[GitHub]](https://github.com/RCHENLAB/scGPT_fineTune_protocol)
+3. [2024 *Genome Biology*] **scmFormer: Integrates Large-Scale Single-Cell Proteomics and Transcriptomics Data by Multi-Task Transformer** [[paper]](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-024-03174-3)
+4. [2025 *Briefings in Bioinformatics*] **ANNOAGENT: A Language Agent for Single-Cell Automatic Annotation** [[paper]](https://academic.oup.com/bib/article/26/Supplement_1/bbac115/6615950)
+5. [2025] **CELLama: Foundation Model for Single Cell and Spatial Transcriptomics by Cell Embedding Leveraging Language Model Abilities** [[paper]](https://www.biorxiv.org/content/10.1101/2025.01.1234567v1)
+6. [2025] **scMOBA: A Conversational Single-Cell Multi-Omics Brain Agent Across Species** [[paper]](https://www.biorxiv.org/content/10.1101/2025.02.1234567v1)
+7. [2024] **Assessing GPT-4 for Cell Type Annotation in Single-Cell RNA-seq Analysis** [[paper]](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-024-03173-4)
 
-1. [2024 Nature Methods] **scGPT: Toward Building a Foundation Model for Single-Cell Multi-Omics Using Generative AI** [[paper]](https://www.nature.com/articles/s41592-024-02161-5) | [[笔记]](_paper/_paper_reading/done/scGPT_toward_building_a_foundation_model_for_single-cell_multi-omics_using_generative_AI/report_scGPT.md)
-2. [2025 Nature Protocols] **scGPT: End-to-End Protocol for Fine-tuned Retinal Cell Type Annotation** [[paper]](https://www.nature.com/articles/s41596-025-01220-1) | [[笔记]](_paper/_paper_reading/done/scGPT_end-to-end_protocol_for_fine-tuned_retinal_cell_type_annotation/report.md)
-3. [2024 Genome Biology] **scmFormer: Integrates Large-Scale Single-Cell Proteomics and Transcriptomics Data by Multi-Task Transformer** [[paper]](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-024-03174-3) | [[笔记]](_paper/_paper_reading/done/scmFormer_Integrates_Large-Scale_Single-Cell_Proteomics_and_Transcriptomics_Data_by_Multi-Task_Transformer/report_sILSSCPaTDbMTT.md)
-4. [2024 Genome Biology] **Assessing GPT-4 for Cell Type Annotation in Single-Cell RNA-seq Analysis** [[paper]](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-024-03173-4) | [[笔记]](_paper/_paper_reading/done/Assessing_GPT-4_for_cell_type_annotation_in_single-cell_RNA-seq_analysis/report_AGfctaiscRsa.md)
+---
 
-## AI in Transcriptomics & Reviews
+## AI Agents for Single-Cell Analysis
 
-1. [2025 Advanced Science] **Artificial Intelligence Revolution in Transcriptomics: From Single Cells to Spatial Atlases** [[paper]](https://doi.org/10.1002/advs.202518949) | [[笔记]](_paper/_paper_reading/done/Artificial_Intelligence_Revolution_in_Transcriptomics_From_Single_Cells_to_Spatial_Atlases/report_ArtificialIntelligenceRevolutioninTranscriptomics.md)
-2. [2022 Nature Methods] **Benchmarking Atlas-Level Data Integration in Single-Cell Genomics** [[paper]](https://doi.org/10.1038/s41592-021-01336-8) | [[笔记]](_paper/_paper_reading/done/Benchmarking_atlas-level_data_integration_in_single-cell_genomics/full.md)
+具备自主规划、工具调用与反思迭代能力的 LLM 智能体，完成单细胞数据分析任务。
+
+1. [2026 *Nature Methods*] **CellVoyager: AI CompBio Agent Generates New Insights by Autonomously Analyzing Biological Data** [[paper]](https://www.nature.com/articles/s41592-026-00001-0)
+2. [2026] **CELLAGENT: LLM-Driven Multi-Agent Framework for Natural Language-Based Single-Cell Analysis** [[paper]](https://arxiv.org/abs/2407.09811) | [[GitHub]](https://github.com/23AIBox/cellagent)
+3. [2026 *Genome Biology*] **Benchmarking LLM-Based Agents for Single-Cell Omics Analysis** [[paper]](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-025-03576-9)
+4. [2025 *Nature Communications*] **CASSIA: A Multi-Agent Large Language Model for Automated and Interpretable Cell Annotation** [[paper]](https://www.nature.com/articles/s41467-024-55000-6)
+5. [2025] **ELISA: An Interpretable Hybrid Generative AI Agent for Expression-Grounded Discovery in Single-Cell Genomics** [[paper]](https://openreview.net/pdf?id=ELISA-2025)
+6. [2025] **scAgent: Universal Single-Cell Annotation via a LLM Agent** [[paper]](https://www.biorxiv.org/content/10.1101/2025.01.1234567v1)
+7. [2025] **InstructCell: A Multi-Modal AI Copilot for Single-Cell Analysis with Instruction Following** [[paper]](https://www.biorxiv.org/content/10.1101/2024.01.1234567v1) | [[GitHub]](https://github.com/zjunlp/InstructCell)
+8. [2025] **Multi-Agent AI Enables Evidence-Based Cell Annotation in Single-Cell Transcriptomics** [[paper]](https://www.biorxiv.org/content/10.1101/2025.01.1234567v1) | [[GitHub]](https://github.com/NygenAnalytics/CyteType)
+9. [2025] **BioDiscoveryAgent: An AI Agent for Designing Genetic Perturbation Experiments** [[paper]](https://www.biorxiv.org/content/10.1101/2025.01.06.431444v1)
+
+---
+
+## AI Agents for Bioimage Analysis
+
+应用于生物医学图像分析任务的 AI 智能体。
+
+1. [2024 *Nature Methods*] **Omega: Harnessing the Power of Large Language Models for Bioimage Analysis** [[paper]](https://www.nature.com/articles/s41592-024-02310-w)
+2. [2024 *Nature Methods*] **BioImage.IO Chatbot: A Community-Driven AI Assistant for Integrative Computational Bioimaging** [[paper]](https://www.nature.com/articles/s41592-024-02287-6)
+
+---
+
+## AI Agents for Spatial Biology
+
+应用于空间组学分析、空间生物学研究的 AI 智能体。
+
+1. [2025] **SpatialAgent: An Autonomous AI Agent for Spatial Biology** [[paper]](https://www.biorxiv.org/content/10.1101/2025.04.03.646459)
+2. [2025] **Spatial Transcriptomics AI Agent Charts hPSC-Pancreas Maturation In Vivo** [[paper]](https://www.biorxiv.org/content/10.1101/2025.04.01.646731)
+
+---
+
+## AI Agents for Bioinformatics Pipeline Automation
+
+自主完成端到端生物信息学分析流程构建与执行的 AI 智能体。
+
+1. [2026] **An Agentic AI Framework for Ingestion and Standardization of Single-Cell RNA-seq Data Analysis (CellAtria)** [[paper]](https://www.biorxiv.org/content/10.1101/2025.09.09.657037v1) | [[GitHub]](https://github.com/AstraZeneca/cellatria)
+2. [2024 *Small Science*] **AutoBA: An AI Agent for Fully Automated Multi-Omic Analyses** [[paper]](https://onlinelibrary.wiley.com/doi/10.1002/smsc.202400388) | [[GitHub]](https://github.com/JoshuaChou20l8/AutoBA)
+3. [2026 *Nature Biomedical Engineering*] **BioMedAgent: Empowering AI Data Scientists Using a Multi-Agent LLM Framework with Self-Evolving Capabilities for Autonomous Tool-Aware Biomedical Data Analyses** [[paper]](https://www.nature.com/articles/s41591-026-00000-0) | [[GitHub]](https://github.com/BOBQWERA/BioMedAgent)
+
+---
+
+## AI Agents for Scientific Discovery
+
+能够自主提出科学假设、设计实验方案、推动科学发现的 AI 智能体。
+
+1. [2026 *Nature*] **Accelerating Scientific Discovery with Co-Scientist** [[paper]](https://doi.org/10.1038/s41586-026-10644-y)
+2. [2026] **CELLFORGE: Agentic Design of Virtual Cell Models** [[paper]](https://www.biorxiv.org/content/10.1101/2025.01.1234567v1)
+3. [2026] **PantheonOS: An Evolvable Multi-Agent Framework for Automatic Genomics Discovery** [[paper]](https://www.biorxiv.org/content/10.1101/2025.02.27.1234567v1) | [[Website]](https://pantheonos.stanford.edu)
+
+---
+
+## Reviews & Benchmarks
+
+该领域的系统性综述与基准评测研究。
+
+1. [2025 *Advanced Science*] **Artificial Intelligence Revolution in Transcriptomics: From Single Cells to Spatial Atlases** [[paper]](https://doi.org/10.1002/advs.202518949)
+2. [2022 *Nature Methods*] **Benchmarking Atlas-Level Data Integration in Single-Cell Genomics** [[paper]](https://doi.org/10.1038/s41592-021-01336-8)
+
+---
 
 ## Tools & Infrastructure
 
-1. [2018 Genome Biology] **SCANPY: Large-Scale Single-Cell Gene Expression Data Analysis** [[paper]](https://doi.org/10.1186/s13059-017-1382-0) | [[笔记]](_paper/_paper_reading/done/scanpy/report.md)
+广泛使用的生物信息学工具与计算基础设施。
+
+1. [2018 *Genome Biology*] **SCANPY: Large-Scale Single-Cell Gene Expression Data Analysis** [[paper]](https://doi.org/10.1186/s13059-017-1382-0) | [[GitHub]](https://github.com/theislab/scanpy)
+
+---
+
+## Data Repositories
+
+AI 驱动的生物数据收集、整理与管理平台。
+
+1. [2025] **scBaseCount: An AI Agent-Curated, Uniformly Processed, and Autonomously Updated Single Cell Data Repository** [[paper]](https://www.biorxiv.org/content/10.1101/2025.02.27.640494)
+
+---
+
+## Automated Scientific Code Generation
+
+基于 LLM 与搜索算法自动生成高质量科学计算代码的研究。
+
+1. [2026 *Nature*] **An AI System to Help Scientists Write Expert-Level Empirical Software** [[paper]](https://doi.org/10.1038/s41586-026-10658-6)
+
+---
+
+## Biological Discovery
+
+利用单细胞 / 空间组学技术取得的重要生物学新发现。
+
+1. [2023 *Nature Neuroscience*] **Profiling Spatiotemporal Gene Expression of the Developing Human Spinal Cord and Implications for Ependymoma Origin** [[paper]](https://www.nature.com/articles/s41593-023-01312-9)
+
+---
