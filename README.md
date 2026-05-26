@@ -25,9 +25,6 @@
 | 2026 *Nature Methods* | **CellVoyager: AI CompBio Agent Generates New Insights by Autonomously Analyzing Biological Data** [[paper]](https://www.nature.com/articles/s41592-026-00001-0) | `Single-cell omics`, `Scientific Discovery` |
 | 2026 *ICLR* | **CELLAGENT: LLM-Driven Multi-Agent Framework for Natural Language-Based Single-Cell Analysis** [[paper]](https://www.biorxiv.org/content/10.1101/2024.05.13.593861v4) [[GitHub]](https://github.com/23AIBox/cellagent) | `Single-cell omics`, `Pipeline Optimization` |
 | 2025 *Nature Communications* | **CASSIA: A Multi-Agent Large Language Model for Automated and Interpretable Cell Annotation** [[paper]](https://www.nature.com/articles/s41467-024-55000-6) | `Single-cell omics`, `Pipeline Optimization` |
-| 2024 *Nature Methods* | **Omega: Harnessing the Power of Large Language Models for Bioimage Analysis** [[paper]](https://www.nature.com/articles/s41592-024-02310-w) | `Bioimage`, `Single-cell omics` |
-| 2024 *Nature Methods* | **BioImage.IO Chatbot: A Community-Driven AI Assistant for Integrative Computational Bioimaging** [[paper]](https://www.nature.com/articles/s41592-024-02287-6) | `Bioimage` |
-
 ---
 
 ## Benchmarks
